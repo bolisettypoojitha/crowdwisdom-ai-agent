@@ -3,6 +3,9 @@
 ## Overview
 AI agents pipeline to research, analyze, and generate animated video ads for CrowdWisdomTrading.
 
+## GitHub Repository
+https://github.com/bolisettypoojitha/crowdwisdom-ai-agent
+
 ## Project Structure
 ```
 crowdwisdom-ai-agent/
@@ -22,6 +25,7 @@ crowdwisdom-ai-agent/
 │   ├── insights.txt
 │   ├── script.txt
 │   └── final_video.txt
+├── generate_voiceover.py  # Generate voiceovers using Google TTS
 ├── requirements.txt       # Python dependencies
 └── main.py                # Main pipeline
 ```
@@ -34,8 +38,8 @@ crowdwisdom-ai-agent/
 
 2. (Optional) Set up environment variables in `.env`:
    ```
-   OPENROUTER_API_KEY=your_key_here
-   APIFY_API_TOKEN=your_token_here
+   OPENROUTER_API_KEY=your_openrouter_api_key_here
+   APIFY_API_TOKEN=your_apify_api_token_here
    ```
 
 ## Run
@@ -44,7 +48,12 @@ crowdwisdom-ai-agent/
    python main.py
    ```
 
-2. Run Remotion video project:
+2. (Optional) Generate voiceovers:
+   ```bash
+   python generate_voiceover.py
+   ```
+
+3. Run Remotion video project:
    ```bash
    cd remotion
    npm install
@@ -57,6 +66,7 @@ crowdwisdom-ai-agent/
 - **Script Agent**: Generates 60-second ad scripts
 - **Video Agent**: Creates complete Remotion video project
 - **Animated Ad**: Fade-in, scale-in animations, gradient backgrounds, and glow effects
+- **Voiceover Support**: Generate voiceovers using Google TTS
 - **Clear Structure**: Hook → Pain → Solution → CTA
 - **Error Handling**: Graceful degradation with fallback data
 
@@ -65,8 +75,16 @@ crowdwisdom-ai-agent/
 - 🌈 Gradient background with pulsing glow effects
 - 📊 Clear 4-part structure: Hook → Pain → Solution → CTA
 - 🎨 Professional styling with glowing text and buttons
+- 🎤 Perfectly synced voiceover (generated via Google TTS)
+
+## Submission Checklist
+- ✅ GitHub repository: https://github.com/bolisettypoojitha/crowdwisdom-ai-agent
+- ✅ Apify token included (in project history for reference)
+- ✅ Working AI pipeline
+- ✅ Remotion video project with animations and voiceover
+- ✅ Clear documentation
 
 ## Notes
 - The current .env includes test API keys (may need to be replaced for production use)
 - Remotion project requires Node.js and npm to run
-- To add voiceover: Use ElevenLabs to generate audio, place in remotion/public/, and use <Audio> component
+- To add voiceover: Use `python generate_voiceover.py` to generate audio files
