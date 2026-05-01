@@ -1,8 +1,11 @@
 .env
 __pycache__/
-node_modules/
 *.pyc
 .DS_Store
 remotion/node_modules/
 remotion/.remotion/
+remotion/package-lock.json
+remotion/public/*.mp3
+remotion/public/durations.json
+
 
