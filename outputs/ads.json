@@ -1,0 +1,16 @@
+[
+  {
+    "ad_archive_id": "fallback-1",
+    "ad_snapshot_url": "https://example.com",
+    "text": "Stop losing money in trading! Get AI-powered signals that actually work.",
+    "cta_text": "Learn More",
+    "landing_page_url": "https://crowdwisdomtrading.com"
+  },
+  {
+    "ad_archive_id": "fallback-2",
+    "ad_snapshot_url": "https://example.com",
+    "text": "Tired of spending hours on chart analysis? Let our AI do the work for you.",
+    "cta_text": "Get Started",
+    "landing_page_url": "https://crowdwisdomtrading.com"
+  }
+]

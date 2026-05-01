@@ -1,0 +1,6 @@
+crewai
+apify-client
+python-dotenv
+requests
+gTTS
+mutagen

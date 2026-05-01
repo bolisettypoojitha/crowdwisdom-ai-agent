@@ -1,0 +1,21 @@
+Remotion project created in 'remotion' directory!
+
+🎬 Ad Features:
+- Animated sections (fade-in, scale-in)
+- Gradient background with glow effects
+- Clear sections: Hook → Pain → Solution → CTA
+
+🎤 To add voiceover (ElevenLabs):
+1. Generate voice audio using ElevenLabs
+2. Place audio file in remotion/public/
+3. Import and use <Audio> component in Ad.tsx
+
+📝 Ad Script:
+
+        60-Second Ad Script:
+        
+        [0-10s] HOOK: Stop losing money in trading!
+        [10-30s] PAIN: Tired of guessing and losing?
+        [30-50s] SOLUTION: Our AI-powered signals give you real-time insights.
+        [50-60s] CTA: Get started today at crowdwisdomtrading.com!
+        
